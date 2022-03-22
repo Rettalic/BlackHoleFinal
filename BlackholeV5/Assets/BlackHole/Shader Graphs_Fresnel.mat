@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_HeatDistortion
-  m_Shader: {fileID: -6465566751694194690, guid: 6139abd726b011b4bbcf35da04edc680, type: 3}
+  m_Name: Shader Graphs_Fresnel
+  m_Shader: {fileID: -6465566751694194690, guid: 4a743153f676efd4080ade046db0028c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,10 +19,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - MainTexture:
-        m_Texture: {fileID: 2800000, guid: a26d4b58a337db7478d7318230397a10, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -37,9 +33,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - DistortionAmount: 3
-    - DistortionScale: 20
-    - RotationAmount: 2
-    - TwirlStrength: 11.62
-    m_Colors: []
+    - FresnelStrength: 2.69
+    m_Colors:
+    - FresnelColour: {r: 1.195026, g: 0.20683146, b: 0, a: 0}
   m_BuildTextureStacks: []
