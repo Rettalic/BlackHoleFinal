@@ -37,9 +37,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - DistortionAmount: 3
-    - DistortionScale: 20
-    - RotationAmount: 2
-    - TwirlStrength: 11.62
+    - DistortionAmount: 1.4
+    - DistortionScale: 35
+    - RotationAmount: -1
+    - TwirlStrength: 30
     m_Colors: []
   m_BuildTextureStacks: []
